@@ -26,8 +26,21 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import docker from "./docker.svg"
+import kubernetes from "./kubernetes.svg"
+import aws from "./aws.svg"
+import postgresql from "./postgresql-icon.svg"
+import prisma from "./prisma-2.svg"
+import cloudflare from "./cloudflare-icon.svg"
+import trpc from "./trpc.svg"
+import graphql from "./graphql.svg"
 
 export {
+    graphql,
+    prisma,
+    postgresql,
+    cloudflare,
+    trpc,
     css,
     express,
     git,
@@ -55,5 +68,8 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    docker,
+    aws,
+    kubernetes
 }

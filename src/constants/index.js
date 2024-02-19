@@ -1,8 +1,6 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-    
-    docker,
-    kubernetes,
+    trpc,postgresql,prisma,cloudflare,graphql,
     car,
     contact,
     css,
@@ -26,8 +24,12 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    aws,
+    docker,
+    kubernetes
 } from "../assets/icons";
+
 
 export const skills = [
     {
@@ -38,6 +40,16 @@ export const skills = [
     {
         imageUrl: express,
         name: "Express",
+        type: "Backend",
+    },
+    {
+        imageUrl: trpc,
+        name: "tRPC",
+        type: "Backend",
+    },
+    {
+        imageUrl: graphql,
+        name: "GraphQL",
         type: "Backend",
     },
     {
@@ -66,6 +78,16 @@ export const skills = [
         type: "Database",
     },
     {
+        imageUrl: postgresql,
+        name: "PostgreSQL",
+        type: "Database",
+    },
+    {
+        imageUrl: prisma,
+        name: "Prisma",
+        type: "Database",
+    },
+    {
         imageUrl: motion,
         name: "Motion",
         type: "Animation",
@@ -80,6 +102,7 @@ export const skills = [
         name: "Next.js",
         type: "Frontend",
     },
+    
     {
         imageUrl: nodejs,
         name: "Node.js",
@@ -110,62 +133,85 @@ export const skills = [
         name: "TypeScript",
         type: "Frontend",
     }
+    ,
+    {
+        imageUrl: docker,
+        name: "Docker",
+        type: "Devops",
+    }
+    ,
+    {
+        imageUrl: kubernetes,
+        name: "Kubernetes",
+        type: "Devops",
+    }
+    ,
+    {
+        imageUrl: aws,
+        name: "AWS",
+        type: "Cloud",
+    },
+    {
+        imageUrl: cloudflare,
+        name: "Cloudflare",
+        type: "Cloud",
+    }
     
 ];
 
 export const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    // {
+    //     title: "React.js Developer",
+    //     company_name: "Starbucks",
+    //     icon: starbucks,
+    //     iconBg: "#accbe1",
+    //     date: "March 2020 - April 2021",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "React Native Developer",
+    //     company_name: "Tesla",
+    //     icon: tesla,
+    //     iconBg: "#fbc3bc",
+    //     date: "Jan 2021 - Feb 2022",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "Web Developer",
+    //     company_name: "Shopify",
+    //     icon: shopify,
+    //     iconBg: "#b7e4c7",
+    //     date: "Jan 2022 - Jan 2023",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#a2d2ff",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 export const socialLinks = [
