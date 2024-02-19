@@ -1,5 +1,8 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
+    
+    docker,
+    kubernetes,
     car,
     contact,
     css,
@@ -107,6 +110,7 @@ export const skills = [
         name: "TypeScript",
         type: "Frontend",
     }
+    
 ];
 
 export const experiences = [
@@ -167,18 +171,18 @@ export const experiences = [
 export const socialLinks = [
     {
         name: 'Contact',
-        iconUrl: contact,
+        iconUrl: contact, 
         link: '/contact',
     },
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/saady789',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/muhammad-saad-7b6134260/',
     }
 ];
 
